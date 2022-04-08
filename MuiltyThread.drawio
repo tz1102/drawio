@@ -1,1 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2022-04-08T02:46:50.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" version="17.4.1" etag="8jlCYq8emQ5_1I9aQicl" type="github"><diagram id="dSPoxaHKL-ieKke_W7VT">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-08T03:03:12.860Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="IGXccjxqW8RjVQLoXtjC" version="17.4.1" type="github">
+  <diagram id="dSPoxaHKL-ieKke_W7VT" name="第 1 页">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u2UPCdSJxWuMMFyEYAow-1" value="标准线程" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="110" y="40" width="470" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="u2UPCdSJxWuMMFyEYAow-2" value="程序计数器&lt;br&gt;（program counter）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="60" width="170" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="u2UPCdSJxWuMMFyEYAow-4" value="栈内存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="130" y="270" width="170" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="u2UPCdSJxWuMMFyEYAow-13" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="u2UPCdSJxWuMMFyEYAow-5" target="u2UPCdSJxWuMMFyEYAow-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2UPCdSJxWuMMFyEYAow-14" value="解释" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u2UPCdSJxWuMMFyEYAow-13">
+          <mxGeometry x="0.3418" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u2UPCdSJxWuMMFyEYAow-5" value="线程描述信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="390" y="60" width="160" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="u2UPCdSJxWuMMFyEYAow-6" value="线程ID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u2UPCdSJxWuMMFyEYAow-7" value="线程名称" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u2UPCdSJxWuMMFyEYAow-8" value="线程状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u2UPCdSJxWuMMFyEYAow-9" value="线程优先级" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u2UPCdSJxWuMMFyEYAow-10" value="ETC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="400" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u2UPCdSJxWuMMFyEYAow-12" value="线程描述信息，也就是线程基本信息&lt;br&gt;&lt;br&gt;线程ID：线程的唯一标识，在同一个进程中的线程ID不重叠&lt;br&gt;&lt;br&gt;线程名称：为了方便用户识别线程，用户可以设置线程名称，如果不设置，则默认一个线程名称&lt;br&gt;&lt;br&gt;线程状态：代表当前线程的状态，状态包含：创建、就绪、阻塞、运行、停止等状态&lt;br&gt;&lt;br&gt;线程优先级：代表线程调度的优先级，优先级越高，获得CPU的执行机会越大&lt;br&gt;&lt;br&gt;其他的线程信息：&lt;br&gt;比如是否为守护线程等。" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="120" height="470" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
