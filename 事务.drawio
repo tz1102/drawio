@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T02:33:18.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="4Eba0YJctChM1jCeoV8A" version="17.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-13T02:34:08.121Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="l2X1LAzrEOZ2950oOiDR" version="17.4.1" type="github">
   <diagram id="Usz0IjKjUA_BMBe5iZc2" name="第 1 页">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="60" y="70" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3cVmpTpY63DD1FdDT410-39" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry y="800" width="840" height="333" as="geometry" />
+          <mxGeometry y="800" width="840" height="350" as="geometry" />
         </mxCell>
         <mxCell id="3cVmpTpY63DD1FdDT410-52" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="3cVmpTpY63DD1FdDT410-39">
           <mxGeometry width="840" height="46" as="geometry" />
@@ -56,20 +56,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3cVmpTpY63DD1FdDT410-48" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="3cVmpTpY63DD1FdDT410-39">
-          <mxGeometry y="136" width="840" height="47" as="geometry" />
+          <mxGeometry y="136" width="840" height="64" as="geometry" />
         </mxCell>
         <mxCell id="3cVmpTpY63DD1FdDT410-49" value="NOT_SUPPORT" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="3cVmpTpY63DD1FdDT410-48">
-          <mxGeometry width="222" height="47" as="geometry">
-            <mxRectangle width="222" height="47" as="alternateBounds" />
+          <mxGeometry width="222" height="64" as="geometry">
+            <mxRectangle width="222" height="64" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3cVmpTpY63DD1FdDT410-50" value="&lt;font style=&quot;font-size: 15px&quot;&gt;不以事务运行，如果存在事务，则挂起事务，但是当前不以事务运行的方法错误时，会导致拥有事务的方法回滚&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comic Sans MS;fontSize=20;align=left;" vertex="1" parent="3cVmpTpY63DD1FdDT410-48">
-          <mxGeometry x="222" width="618" height="47" as="geometry">
-            <mxRectangle width="618" height="47" as="alternateBounds" />
+          <mxGeometry x="222" width="618" height="64" as="geometry">
+            <mxRectangle width="618" height="64" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3cVmpTpY63DD1FdDT410-55" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="3cVmpTpY63DD1FdDT410-39">
-          <mxGeometry y="183" width="840" height="57" as="geometry" />
+          <mxGeometry y="200" width="840" height="57" as="geometry" />
         </mxCell>
         <mxCell id="3cVmpTpY63DD1FdDT410-56" value="NESTED" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="3cVmpTpY63DD1FdDT410-55">
           <mxGeometry width="222" height="57" as="geometry">
@@ -82,7 +82,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3cVmpTpY63DD1FdDT410-58" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="3cVmpTpY63DD1FdDT410-39">
-          <mxGeometry y="240" width="840" height="47" as="geometry" />
+          <mxGeometry y="257" width="840" height="47" as="geometry" />
         </mxCell>
         <mxCell id="3cVmpTpY63DD1FdDT410-59" value="NAVER" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="3cVmpTpY63DD1FdDT410-58">
           <mxGeometry width="222" height="47" as="geometry">
@@ -95,7 +95,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3cVmpTpY63DD1FdDT410-61" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="3cVmpTpY63DD1FdDT410-39">
-          <mxGeometry y="287" width="840" height="46" as="geometry" />
+          <mxGeometry y="304" width="840" height="46" as="geometry" />
         </mxCell>
         <mxCell id="3cVmpTpY63DD1FdDT410-62" value="MANDATORY" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="3cVmpTpY63DD1FdDT410-61">
           <mxGeometry width="222" height="46" as="geometry">
